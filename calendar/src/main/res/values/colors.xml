@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="calendar_bg_color">#fff</color>
+    <color name="week_text_color">#4588E3</color>
+    <color name="split_line_color" >#c8c7cc</color>
+    <color name="normal_day_text_color">#161616</color>
+    <color name="selected_day_text_color">#fff</color>
+    <color name="lunar_text_color">#ACA9BC</color>
+    <color name="holiday_text_color">#FE8595</color>
+    <color name="other_month_text_color">#929292</color>
+    <color name="hint_dot_color">#FE8595</color>
+    <color name="select_circle_color">#884588E3</color>
+    <color name="select_today_circle_color">#4588E3</color>
+
+</resources>

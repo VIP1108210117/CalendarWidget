@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- 控件尺寸 -->
+    <!-- 日历的最小宽度 -->
+    <dimen name="calendar_width">300dp</dimen>
+    <!-- 星期条的高度 -->
+    <dimen name="calendar_week_bar_height">36dp</dimen>
+    <!-- 星期日历控件的高度 -->
+    <dimen name="calendar_week_view_height">48dp</dimen>
+    <!-- 月份日历控件的高度 -->
+    <dimen name="calendar_month_view_height">288dp</dimen>
+    <!-- 展开和收缩日历的开关控件的高度 -->
+    <dimen name="switch_btn_radius">18dp</dimen>
+    <!-- 文本大小 -->
+    <dimen name="week_text_size">14sp</dimen>
+    <dimen name="day_text_size">14sp</dimen>
+    <dimen name="lunar_day_text_size">8sp</dimen>
+
+</resources>

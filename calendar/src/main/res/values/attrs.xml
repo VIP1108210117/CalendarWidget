@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 日历组件的自定义样式属性，用于自定义控件中获取默认样式，在AppTheme中赋值 -->
+    <attr name="calendarViewStyle" format="reference"/>
+
+    <!-- 分割线的颜色 -->
+    <attr name="split_line_color" format="reference|color" />
+
+    <!-- 日历组件的自定义属性 -->
+    <declare-styleable name="CalendarWidget">
+        <!-- 日历向前支持多少个月 -->
+        <attr name="preMonths" format="integer"/>
+        <!-- 日历向后支持多少个月 -->
+        <attr name="nextMonths" format="integer"/>
+        <!-- 日历组件的背景色，实际上是设置组件内部控件的背景色 -->
+        <attr name="calenderBGColor" format="reference|color"/>
+        <!-- 星期条的高度 -->
+        <attr name="weekBarHeight" format="dimension" />
+        <!-- 星期日历控件的高度 -->
+        <attr name="weekViewHeight" format="dimension" />
+        <!-- 月份日历空你就按的高度 -->
+        <attr name="monthViewHeight" format="dimension" />
+    </declare-styleable>
+
+    <!-- 星期控件的属性 -->
+    <declare-styleable name="WeekBar">
+        <attr name="week_text_size" format="dimension" />
+        <attr name="week_text_color" format="reference|color" />
+        <attr name="split_line_color"/>
+    </declare-styleable>
+
+    <!-- 开关条控件的属性 -->
+    <declare-styleable name="SwitchBar">
+        <!-- 开关按钮的半径 -->
+        <attr name="switchBtnRadius" format="dimension" />
+        <attr name="split_line_color"/>
+    </declare-styleable>
+
+    <!-- 日历控件的自定义属性 -->
+    <declare-styleable name="CalendarView">
+        <!-- 常规的颜色属性 -->
+        <attr name="normalDayTextColor" format="reference|color" />
+        <attr name="todayTextColor" format="reference|color" />
+        <attr name="otherMonthDayTextColor" format="reference|color" />
+        <attr name="dayLunarTextColor" format="reference|color" />
+        <attr name="holidayColor" format="reference|color" />
+        <attr name="hintCircleColor" format="reference|color" />
+        <!-- 选中状态的颜色属性 -->
+        <attr name="selectedDayTextColor" format="reference|color" />
+        <attr name="selectedDayCircleColor" format="reference|color" />
+        <attr name="selectedTodayCircleColor" format="reference|color" />
+        <!-- 字体大小属性 -->
+        <attr name="dayTextSize" format="dimension" />
+        <attr name="dayLunarTextSize" format="dimension" />
+        <!-- 一些功能开关属性 -->
+        <attr name="showTaskHintEnable" format="boolean" />
+        <attr name="showLunarEnable" format="boolean" />
+        <attr name="showHolidayHintEnable" format="boolean" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 日历组件的默认样式，用于在AppTheme中设置日历组件的样式 -->
+    <style name="DefaultCalendarStyle">
+        <!-- 日历组件的样式 -->
+        <item name="calenderBGColor">@color/calendar_bg_color</item>
+        <item name="preMonths">12</item>
+        <item name="nextMonths">12</item>
+        <!-- 星期条的高度 -->
+        <item name="weekBarHeight">@dimen/calendar_week_bar_height</item>
+        <!-- 星期日历控件的高度 -->
+        <item name="weekViewHeight">@dimen/calendar_week_view_height</item>
+        <!-- 月份日历空你就按的高度 -->
+        <item name="monthViewHeight">@dimen/calendar_month_view_height</item>
+
+        <!-- 星期条的样式 -->
+        <item name="week_text_color">@color/week_text_color</item>
+        <item name="week_text_size">@dimen/week_text_size</item>
+        <item name="split_line_color">@color/split_line_color</item>
+        <!-- 开关条控件的半径 -->
+        <item name="switchBtnRadius">@dimen/switch_btn_radius</item>
+
+        <!-- 自定义日历页面的样式 -->
+        <!-- 常规的颜色属性 -->
+        <item name="normalDayTextColor">@color/normal_day_text_color</item>
+        <item name="otherMonthDayTextColor">@color/other_month_text_color</item>
+        <item name="dayLunarTextColor">@color/lunar_text_color</item>
+        <item name="holidayColor">@color/holiday_text_color</item>
+        <item name="hintCircleColor">@color/hint_dot_color</item>
+        <!-- 选中状态的颜色属性 -->
+        <item name="selectedDayTextColor">@color/selected_day_text_color</item>
+        <item name="selectedDayCircleColor">@color/select_circle_color</item>
+        <item name="selectedTodayCircleColor">@color/select_today_circle_color</item>
+        <!-- 字体大小属性 -->
+        <item name="dayTextSize">@dimen/day_text_size</item>
+        <item name="dayLunarTextSize">@dimen/lunar_day_text_size</item>
+        <!-- 一些功能开关 -->
+        <item name="showTaskHintEnable">true</item>
+        <item name="showLunarEnable">true</item>
+        <item name="showHolidayHintEnable">true</item>
+    </style>
+
+</resources>

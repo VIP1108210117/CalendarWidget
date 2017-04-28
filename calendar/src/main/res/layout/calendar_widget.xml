@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <cn.benguo.calendar.indicate.CalendarIndicateView
+        android:id="@+id/calendarIndicateView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <cn.benguo.calendar.WeekBar
+        android:id="@+id/weekBarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendarIndicateView"/>
+
+    <FrameLayout
+        android:id="@+id/fl_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weekBarView">
+
+        <cn.benguo.calendar.month.MonthViewPager
+            android:id="@+id/monthViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <cn.benguo.calendar.week.WeekViewPager
+            android:id="@+id/weekViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+    </FrameLayout>
+
+    <cn.benguo.calendar.SwitchBar
+        android:id="@+id/switchBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fl_calendar"
+        />
+
+</merge>
